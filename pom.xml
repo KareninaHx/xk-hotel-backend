@@ -3,10 +3,27 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.works.kare</groupId>
     <artifactId>xk-hotel</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <!--模块管理-->
+    <modules>
+        <!--房间管理模块-->
+        <module>xk-hotel-room</module>
+        <!--订单处理模块-->
+        <module>xk-hotel-order</module>
+        <!--评价和反馈模块-->
+        <module>xk-hotel-comment</module>
+        <!--用户模块-->
+        <module>xk-hotel-user</module>
+        <!--日志和监控模块-->
+        <module>xk-hotel-log</module>
+        <!--预定模块-->
+        <module>xk-hotel-reserve</module>
+        <!--微服务通信和网关模块-->
+        <module>xk-hotel-gateway</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
