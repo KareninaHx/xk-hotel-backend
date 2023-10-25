@@ -23,6 +23,10 @@
         <module>xk-hotel-reserve</module>
         <!--微服务通信和网关模块-->
         <module>xk-hotel-gateway</module>
+        <!--人人开发后台管理系统 后端-->
+        <module>renren-fast</module>
+        <!--人人开发 代码生成器-->
+        <module>renren-generator</module>
     </modules>
 
     <properties>
